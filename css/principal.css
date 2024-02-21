@@ -1,0 +1,83 @@
+.container_lista {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.container_imagem_lista {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.container_texto_lista {
+    color: var(--cor-branca);
+    font-size: 8px;
+    font-weight: 300;
+    margin-left: 0em;
+}
+
+
+.inicio{
+    margin-left: 1.5em;
+}
+
+.explorar{
+    margin-left: 0.9em;
+}
+
+.disk{
+    margin-left: 0.5em;
+}
+
+.git{
+    margin-left: 1em;
+}
+
+.lista{
+    padding-left: 0.5em;
+}
+
+.lista_inicio{
+    padding-bottom: 2em;
+}
+.opcao{
+    display: flex;
+    margin-left:8em;
+    margin-top: 2em;
+    position:absolute;
+}
+
+.container_opcao{
+    padding-right:1em ;
+    font-size: 12px;
+    color: var(--cor-branca);
+    
+}
+
+.container_opcao_lista{
+    background: rgba(128, 128, 128, 0.238);
+    border: none;
+    border-radius: 8px;
+    padding: 0.8em;
+    color: var(--cor-branca);
+    font-size: 10px;
+}
+
+.container_principal{
+    display: flex;
+}
+
+.container_opcao_lista_link{
+    color: white;
+    text-decoration: none;
+}
+
+.container_opcao_lista:hover{
+    background: rgba(191, 191, 191, 0.238);
+}
+
+.lista_principal_esquerda:hover{
+    background: rgba(184, 184, 184, 0.495);
+    border-radius: 10px;
+    padding: 0.3em;
+}
